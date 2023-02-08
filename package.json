@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": " npm run build",
     "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
@@ -40,9 +41,14 @@
       "last 1 safari version"
     ]
   },
+  "homepage" : "https://jokoadi77.github.io/portofilio-jokoadi/",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "gh-pages": "^2.0.1"
+    
   }
+  
 }
+
